@@ -1,0 +1,32 @@
+:root {
+  --tabpanel-background-color: transparent !important;
+   -moz-default-appearance: menupopup !important;
+  appearance: menupopup !important;
+}
+
+.browser-toolbar {
+  &:not(.titlebar-color) {
+    background-color: transparent !important;
+    appearance: menupopup !important;
+  }
+}
+
+html#main-window body {
+  display: block;
+  width: 100%;
+  height 100%;
+}
+
+toolbox#navigator-toolbox {
+  height: 100vh;
+}
+
+hbox#browser {
+  position: absolute;
+  display: block;
+  top: calc(-100vh + 90px);
+}
+
+vbox#appcontent {
+  height: calc(100vh - 90px);
+}
