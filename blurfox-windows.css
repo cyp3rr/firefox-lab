@@ -1,0 +1,31 @@
+/* you need to install MICA for everyone. */
+
+:root {
+  --tabpanel-background-color: transparent !important;
+   -moz-default-appearance:  !important;
+  appearance: menupopup !important;  
+}
+
+.browser-toolbar {
+  &:not(.titlebar-color) {
+    background-color: transparent !important;
+  }
+}
+
+toolbox#navigator-toolbox {
+  background-color: transparent !important;
+}
+
+
+#main-window {
+	background-color: transparent !important;
+	-moz-appearance: -moz-win-borderless-glass !important;
+}
+
+
+#urlbar-background, #searchbar {
+	background-color: rgba(255,255,255,0.4) !important;
+}
+#urlbar[open="true"] > #urlbar-background {
+	background-color: rgb(255,255,255) !important;
+}
