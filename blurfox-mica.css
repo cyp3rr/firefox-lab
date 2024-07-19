@@ -1,0 +1,13 @@
+:root {
+  --tabpanel-background-color: transparent !important;
+}
+
+.browser-toolbar {
+  &:not(.titlebar-color) {
+    background-color: transparent !important;
+  }
+}
+
+toolbox#navigator-toolbox {
+  background-color: transparent !important;
+}
