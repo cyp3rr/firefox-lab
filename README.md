@@ -35,7 +35,7 @@ Although the goal of this theme is just adding a transparency or blur and works 
 ### I applied the theme but the transparency doesn't work. 
 The code doesn't provide the full transaprency on your webpage. This just remove the background of the browser's window. That means you need to remove the background of the webpage on your own. for this, you need to use userContent.css or Stylus. 
 
-Most of the time, if you set the background as a transparent, the transparency works. But based on websites, your milage may vary. 
+Most of the time, if you set the background as a transparent, the transparency works. But based on websites, your mileage may vary. 
 I recommend you to make your own stylesheet for the website you visits. 
 
 ### Why not just set everything as a transparent? 
