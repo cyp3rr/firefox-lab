@@ -30,4 +30,24 @@ Set everything default and only set the visual style as MICA or Acrylic.
 ## For macOS
 Although the goal of this theme is just adding a transparency or blur and works with other themes for firefox, achieving blur on macOS requires crazy layout modifications. Therefore, most of your themes won't work with this code. I don't really recomment to use this code with other themes. 
 
+## Frequently asked questions
 
+### I applied the theme but the transparency doesn't work. 
+The code doesn't provide the full transaprency on your webpage. This just remove the background of the browser's window. That means you need to remove the background of the webpage on your own. for this, you need to use userContent.css or Stylus. 
+
+Most of the time, if you set the background as a transparent, the transparency works. But based on websites, your milage may vary. 
+I recommend you to make your own stylesheet for the website you visits. 
+
+### Why not just set everything as a transparent? 
+That might cause some problems. For example, Youtube player won't show no controls when you do that. So be careful with those settings. 
+
+My recommendations is just simplt set 
+
+```
+html, body {
+  background: none !important;
+  background-color: transparent !important;
+}
+```
+
+Then add your own styles per websites using `@-moz-document url(http://website.com)`. 
