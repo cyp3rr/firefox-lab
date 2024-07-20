@@ -1,6 +1,6 @@
 # Blurfox
 
-## basic setups
+## Basic setups
 
 1. go to `about:support` and open the profile folder.
 2. In the profile folder, make a new folder called 'chrome'.
