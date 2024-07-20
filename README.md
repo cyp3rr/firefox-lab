@@ -41,7 +41,7 @@ I recommend you to make your own stylesheet for the website you visits.
 ### Why not just set everything as a transparent? 
 That might cause some problems. For example, Youtube player won't show no controls when you do that. So be careful with those settings. 
 
-My recommendations is just simplt set 
+My recommendations is just simply set 
 
 ```
 html, body {
