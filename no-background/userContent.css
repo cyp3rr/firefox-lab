@@ -1,16 +1,11 @@
 /* imports */
 
-
-body {
-    background-color: rgba(0,0,0,.0) !important;
-}
-
 @-moz-document domain(youtube.com) {
     #background, #chips-wrapper, ytd-mini-guide-entry-renderer {
         background-color: rgba(255,255,255,.5) !important;
         backdrop-filter: blur(20px);
     }    
-    html, ytd-app, ytd-mini-guide-renderer {
+    body, html, ytd-app, ytd-mini-guide-renderer {
         background-color: transparent !important;
     }
 }
@@ -20,7 +15,7 @@ body {
         background-color: rgba(255,255,255,.5) !important;
         backdrop-filter: blur(20px);
     }    
-    html, .bg-neutral-background, .threadline, reddit-sidebar-nav, shreddit-post, aside, .reddit-search-bar, comment-body-header, shreddit-comment-tree{
+    body, html, .bg-neutral-background, .threadline, reddit-sidebar-nav, shreddit-post, aside, .reddit-search-bar, comment-body-header, shreddit-comment-tree{
         background-color: transparent !important;
     }
 }
@@ -30,7 +25,7 @@ body {
         background-color: rgba(255,255,255,.5) !important;
         backdrop-filter: blur(20px);
     }    
-    html, reddit-sidebar-nav, shreddit-post, aside, .reddit-search-bar{
+    body, html, reddit-sidebar-nav, shreddit-post, aside, .reddit-search-bar{
         background-color: transparent !important;
     }
 }
@@ -40,7 +35,7 @@ body {
         background-color: rgba(255,255,255,.5) !important;
         backdrop-filter: blur(20px);        
     }
-    div#search > * {
+    body, html, div#search > * {
         background-color: transparent !important;
     }
     .g, .appbar {
@@ -58,7 +53,7 @@ body {
 
 @-moz-document domain(github.com) {
 
-    html, header, #repository-container-header, .bgColor-muted, section{
+    body, html, header, #repository-container-header, .bgColor-muted, section{
         background-color: transparent !important;
     }
 }
