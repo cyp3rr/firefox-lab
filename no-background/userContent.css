@@ -5,7 +5,7 @@ body {
     background-color: rgba(0,0,0,.0) !important;
 }
 
-@-moz-document url(https://www.youtube.com/) {
+@-moz-document domain(youtube.com) {
     #background, #chips-wrapper, ytd-mini-guide-entry-renderer {
         background-color: rgba(255,255,255,.5) !important;
         backdrop-filter: blur(20px);
@@ -56,3 +56,9 @@ body {
     }
 }
 
+@-moz-document domain(github.com) {
+
+    html, header, #repository-container-header, .bgColor-muted, section{
+        background-color: transparent !important;
+    }
+}
