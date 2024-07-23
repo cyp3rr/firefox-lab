@@ -1,0 +1,58 @@
+/* imports */
+
+
+body {
+    background-color: rgba(0,0,0,.0) !important;
+}
+
+@-moz-document url(https://www.youtube.com/) {
+    #background, #chips-wrapper, ytd-mini-guide-entry-renderer {
+        background-color: rgba(255,255,255,.5) !important;
+        backdrop-filter: blur(20px);
+    }    
+    html, ytd-app, ytd-mini-guide-renderer {
+        background-color: transparent !important;
+    }
+}
+
+@-moz-document domain(reddit.com) {
+    header {
+        background-color: rgba(255,255,255,.5) !important;
+        backdrop-filter: blur(20px);
+    }    
+    html, .bg-neutral-background, .threadline, reddit-sidebar-nav, shreddit-post, aside, .reddit-search-bar, comment-body-header, shreddit-comment-tree{
+        background-color: transparent !important;
+    }
+}
+
+@-moz-document domain(reddit.com) {
+    header {
+        background-color: rgba(255,255,255,.5) !important;
+        backdrop-filter: blur(20px);
+    }    
+    html, reddit-sidebar-nav, shreddit-post, aside, .reddit-search-bar{
+        background-color: transparent !important;
+    }
+}
+
+@-moz-document domain(google.com) {
+    .sfbg {
+        background-color: rgba(255,255,255,.5) !important;
+        backdrop-filter: blur(20px);        
+    }
+    div#search > * {
+        background-color: transparent !important;
+    }
+    .g, .appbar {
+        background-color: transparent !important;
+    }
+    div#rso {
+        * {
+            background-color: transparent !important;
+        }
+    }
+    div#cnt > div {
+
+    }
+}
+
