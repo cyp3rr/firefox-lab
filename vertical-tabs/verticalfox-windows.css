@@ -11,6 +11,10 @@ body {
   display: none;
 }
 
+.titlebar-buttonbox-container {
+  padding-left: 68px;
+}
+
 #navigator-toolbox {
   width: 200px; 
   height: 100vh;
