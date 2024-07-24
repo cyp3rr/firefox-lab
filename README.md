@@ -51,3 +51,14 @@ html, body {
 ```
 
 Then add your own styles per websites using `@-moz-document url(http://website.com)`. 
+
+
+### It's too cumbersome. Any other solutions?
+
+Try my 'No Background' userContent.css. It supports few websites and there's more to come.
+
+Supported websites
+- Reddit
+- Github
+- Youtube
+- Google
